@@ -1,0 +1,239 @@
+body {
+
+    font-family: 'Poiret One', cursive;
+    
+    
+}
+
+.jumbotron {
+
+    position: relative;
+    top:56px;
+    background-image: linear-gradient(to bottom right, #304352, #833ab4);
+    color: white;
+    font-family: 'Poiret One', cursive;
+}
+
+.navbar {
+
+    font-size:20px;
+    font-weight:bold;
+
+}
+
+
+
+main {
+
+    background-image: linear-gradient(to top right, #304352, #833ab4);
+    color:white;
+    
+
+}
+
+.skills {
+
+    padding:0px;
+    margin:0px;
+    position: relative;
+    bottom:100px;
+    right: 15px;
+    color: #2a0845;
+    opacity: 45%;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: 'Permanent Marker', cursive;
+
+}
+
+.heading {
+
+    position: relative;
+    top: 50px;
+    font-weight: bold;
+    max-height: auto;
+
+}
+
+.fab {
+    position:relative;
+    bottom:150px;
+    font-size: 40px;
+    width:40px;
+    text-decoration: none;
+    display: inline;
+    color:#4A266D;
+    transition: transform 2s;
+    
+    
+}
+
+.iconFooter {
+    
+    position: relative;
+    top: 125px;
+
+}
+
+.project{
+
+    position: relative;
+    font-size:24px;
+    bottom: 50px;
+    max-width:75%;
+    left:15%;
+    
+}
+
+.project h1 {
+    
+    font-weight: bolder;
+    font-size:40px;
+}
+
+
+@media screen and (max-width: 650px) {
+    .project {
+        font-size: 20px;
+        left:8%;
+        max-width: 90%;
+
+    }
+}
+
+
+
+@media screen and (min-width: 551px) {
+    .skills {
+        font-size: 25px;
+        bottom:50px;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .skills {
+        font-size: 16px;
+        bottom:50px;
+        
+    }
+}
+
+
+
+footer {
+
+    color: white;
+    height: 80px;
+    background-color: #333A40;
+}
+
+.business {
+
+    position: relative;
+    top:20px;
+}
+
+
+.aboutMe {
+    
+    font-size:24px;
+    max-width:75%;
+    left:15%;
+}
+
+.fas {
+    
+    padding:20px;
+    font-size:40px;
+    
+}
+
+
+@media screen and (max-width: 650px) {
+    .aboutMe {
+        font-size: 20px;
+        left:5%;
+        max-width: 90%;
+
+    }
+}
+
+.emailLink {
+    
+    text-decoration: none;
+    color:aquamarine;
+    
+}
+
+.emailLink:hover {
+    
+    color: hotpink;
+    text-decoration: none;
+}
+
+.fab:hover {
+    
+    transform: scale(1.5);
+    
+    
+}
+
+.fa-instagram:hover { 
+ background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+  -webkit-background-clip: text;
+          background-clip: text;
+  -webkit-text-fill-color: transparent;
+  }
+
+.fa-facebook:hover { 
+  color:#4267B2;
+      
+  }
+
+.fa-twitter-square:hover { 
+  color:#1DA1F2;
+   
+   
+  }
+.fa-linkedin:hover { 
+  color:#0173B0;
+    
+  }
+
+.fa-twitch:hover { 
+  color:#B887FF;
+    
+  }
+
+.modal {
+    
+    color: black;
+    font-weight:bold;
+}
+
+.modal-content {
+    
+    padding:20px;
+    
+}
+
+.close {
+    
+    font-size:50px;
+    color:red;
+    padding:0px !important;
+    position: relative;
+    bottom: 110px;
+}
+
+.photograph {
+    
+    max-height: 100px;
+    position: relative;
+    border-radius: 50% !important;
+    
+}
+
+
+
+
